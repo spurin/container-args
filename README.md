@@ -69,4 +69,4 @@ The application runs indefinitely until receiving a SIGINT or SIGTERM, after whi
 
 # Development
 
-Modify the C source code (logargs.c) as needed for further customization. Remember to rebuild the container image to apply your changes.
+Modify the C source code (logargs.c) as needed for further customisation. Remember to rebuild the container image to apply your changes.

@@ -4,18 +4,18 @@ This project provides a super-lightweight container image that logs any argument
 
 ## Features
 
-- Ultra-lightweight container image, ideal for minimalistic deployments.
-- Logs startup arguments.
-- Graceful shutdown support on receiving `SIGINT` and `SIGTERM`.
+- Ultra-lightweight container image, ideal for minimalistic deployments
+- Logs startup arguments
+- Graceful shutdown support on receiving `SIGINT` and `SIGTERM`
 
 ## Prerequisites
 
-- Docker or any OCI compatible container runtime for local testing and image building.
-- Access to a Kubernetes cluster and `kubectl` configured for Kubernetes examples.
+- Docker or any OCI compatible container runtime for local testing and image building
+- Access to a Kubernetes cluster and `kubectl` configured for Kubernetes examples
 
 ## Using the Container Image
 
-You can either build the container image yourself or use the pre-built multi-architecture version available on Docker Hub (`spurin/container-args`).
+You can either build the container image yourself or use the pre-built multi-architecture version available on Docker Hub `spurin/container-args`
 
 ### Building the Container Image
 
@@ -25,7 +25,7 @@ To build the image yourself, clone this repository or download the source code, 
 docker build -t spurin/container-args .
 ```
 
-## Using the Pre-built Image
+## Using the Pre-Built Image
 
 Alternatively, you can use the pre-built image available on Docker Hub without needing to build it yourself:
 
